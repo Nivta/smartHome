@@ -1,0 +1,42 @@
+.MRoom {
+    width: 300px; /* רוחב הריבוע */
+    height: 300px; /* גובה הריבוע */
+    border: 2px solid #000; /* קו מסביב לריבוע */
+    padding: 10px; /* רווח פנימי */
+    box-sizing: border-box; /* כולל את הקווים וה-padding בגובה ורוחב */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0; /* צבע רקע נוסף ל-DIV */
+  }
+  
+  .MRoom h1 {
+    margin: 0 0 10px 0; /* מרווח בין הכותרת לשאר התוכן */
+    color: black; /* צבע כחול לכותרת */
+  }
+  
+  .MRoom p {
+    margin: 5px 0; /* מרווח בין הפסקאות */
+    color:black; /* צבע כחול לפסקאות */
+  }
+  
+  .add-product-button,  .backToHome{
+    margin-top: 10px; /* מרווח בין הפסקאות לכפתור */
+    padding: 10px 20px; /* רווח פנימי בתוך הכפתור */
+    background-color: #007bff; /* צבע רקע הכפתור */
+    color: white; /* צבע הטקסט בכפתור */
+    border: none; /* קו מסביב לכפתור */
+    border-radius: 5px; /* פינות מעוגלות */
+    cursor: pointer; /* שינוי הסמן על הכפתור */
+    font-size: 16px; /* גודל הטקסט בכפתור */
+  }
+  
+  .add-product-button:hover {
+    background-color: #0056b3; /* צבע רקע כאשר הכפתור מועבר עליו עם העכבר */
+  }
+  .backToHome {
+    background-color: #008CBA; /* Blue background */
+}
+;

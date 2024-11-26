@@ -1,0 +1,30 @@
+
+  .container {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.room {
+    width: 100px; /* Adjust width */
+    height: 100px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color for visibility */
+    margin: 10px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    font-size: 16px; /* Optional: Font size */
+    font-weight: bold; /* Optional: Font weight */
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
